@@ -94,7 +94,7 @@
              
                 <select name="saddleshipping_shipment_status_id" id="input-order-status" class="form-control">
                 <?php foreach ($order_statuses as $order_status) { ?>
-               <?php echo $saddleshipping_shipment_status_id;?>
+         
                 <option value="<?php echo $order_status['order_status_id']; ?>" <?php if ($order_status['name']=='Shipped') echo 'selected="selected"'; ?>><?php echo $order_status['name']; ?></option>
                
                 <?php } ?>
