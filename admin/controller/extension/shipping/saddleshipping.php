@@ -339,7 +339,7 @@ $delivery_post='{"transaction_id":"'.$order_id.'",
 "image_location":"'.$this->config->get('config_url').'image/'.$item['image'].'",  
 "fragile":"1",  
 "perishable":"1",
-"pre_auth":"1",
+"pre_auth":"0",
 "status":"0",
 "POD": "'.$pod.'"
 }';
